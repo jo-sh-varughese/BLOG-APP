@@ -1,0 +1,77 @@
+/* Background color for the whole page */
+.home-container {
+    padding: 20px;
+    background-color: white; /* White background */
+    text-align: center;
+    min-height: 100vh; /* Ensures content fills the screen */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #8e44ad; /* Purple navbar */
+    color: white;
+    padding: 20px;
+  }
+  
+  .navbar h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  /* Posts container */
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+  }
+  
+  /* Card styling for each blog post */
+  .post-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .post-date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  /* Purple button styles */
+  .read-more-btn {
+    background-color: #8e44ad; /* Purple button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #732d91; /* Darker purple on hover */
+  }
+  
